@@ -1,0 +1,194 @@
+{
+    "usuarios": [
+        {
+            "dni": "12345678",
+            "nombre": "Mateo",
+            "apellido": "Tolentinati",
+            "usuario": "admin",
+            "clave": "1234",
+            "rol": "Admin"
+        },
+        {
+            "dni": "87654321",
+            "nombre": "Ana",
+            "apellido": "Caballe",
+            "usuario": "vendedor1",
+            "clave": "1234",
+            "rol": "Vendedor"
+        }
+    ],
+    "Ventas": [
+        {
+            "id_venta": 1,
+            "producto": "Intel i7 8700k",
+            "cantidad": 24,
+            "total": 12000000.0,
+            "vendedor": "Juan",
+            "fecha": "2026-09-07"
+        },
+        {
+            "id_venta": 2,
+            "producto": "Ryzen 7 5000",
+            "cantidad": 1,
+            "total": 9000000.0,
+            "vendedor": "Juan",
+            "fecha": "2026-09-08"
+        },
+        {
+            "id_venta": 3,
+            "producto": "Pendrive Kingston",
+            "cantidad": 1,
+            "total": 50000.0,
+            "vendedor": "Juan",
+            "fecha": "2026-09-08"
+        },
+        {
+            "id_venta": 4,
+            "producto": "Intel i7 8700k",
+            "cantidad": 60,
+            "total": 30000000.0,
+            "vendedor": "Ana",
+            "fecha": "2026-09-08"
+        },
+        {
+            "id_venta": 5,
+            "producto": "SSD 1034 GB",
+            "cantidad": 2,
+            "total": 1000000.0,
+            "vendedor": "Mateo",
+            "fecha": "2026-09-08"
+        },
+        {
+            "id_venta": 6,
+            "producto": "Intel i7 8700k",
+            "cantidad": 2,
+            "total": 1000000.0,
+            "vendedor": "Ana",
+            "fecha": "2026-09-08"
+        },
+        {
+            "id_venta": 7,
+            "producto": "Pendrive Kingston",
+            "cantidad": 60,
+            "total": 3000000.0,
+            "vendedor": "Ana",
+            "fecha": "2026-09-09"
+        },
+        {
+            "id_venta": 8,
+            "producto": "Ryzen 7 5000",
+            "cantidad": 10,
+            "total": 90000000.0,
+            "vendedor": "Ana",
+            "fecha": "2026-09-09"
+        }
+    ],
+    "Procesador": [
+        {
+            "id": 1,
+            "nombre": "Intel i7 8700k",
+            "marca": "Intel",
+            "stock": 38,
+            "precio": 500000.0,
+            "estado": "Activo",
+            "hilos": 12,
+            "frecuencia": 3.7,
+            "socket": "LGA1151"
+        },
+        {
+            "id": 2,
+            "nombre": "Ryzen 7 5000",
+            "marca": "AMD",
+            "stock": 30,
+            "precio": 9000000.0,
+            "estado": "Activo",
+            "hilos": 16,
+            "frecuencia": 4.2,
+            "socket": "AM4"
+        }
+    ],
+    "Ram": [
+        {
+            "id": 8,
+            "nombre": "ADATA Vaule",
+            "marca": "ADATA",
+            "stock": 20,
+            "precio": 232912.0,
+            "estado": "Activo",
+            "capacidad_gb": 16,
+            "velocidad_mhz": 3200.0,
+            "tipo": "DDR4 DIMM"
+        },
+        {
+            "id": 9,
+            "nombre": "Lexar Desktop",
+            "marca": "Lexar",
+            "stock": 10,
+            "precio": 239145.0,
+            "estado": "Activo",
+            "capacidad_gb": 16,
+            "velocidad_mhz": 3200.0,
+            "tipo": "DDR4 DIMM"
+        }
+    ],
+    "Disco": [
+        {
+            "id": 6,
+            "nombre": "SSD 1034 GB",
+            "marca": "Kingstons",
+            "stock": 63,
+            "precio": 500000.0,
+            "estado": "Activo",
+            "capacidad_gb": 1000,
+            "tipo": "m.2",
+            "velocidad": 140000.0
+        },
+        {
+            "id": 7,
+            "nombre": "Disco Rigido",
+            "marca": "Kingstons",
+            "stock": 45,
+            "precio": 200000.0,
+            "estado": "Activo",
+            "capacidad_gb": 1000,
+            "tipo": "HDD",
+            "velocidad": 2000.0
+        }
+    ],
+    "PlacaDeVideo": [
+        {
+            "id": 4,
+            "nombre": "gtx 1650 super",
+            "marca": "geforce",
+            "stock": 98,
+            "precio": 400000.0,
+            "estado": "Activo",
+            "vram": 4,
+            "chipset": "nc",
+            "consumo_wats": 12.0
+        },
+        {
+            "id": 5,
+            "nombre": "Nvidia RXTT 5060",
+            "marca": "MSI ventus",
+            "stock": 54,
+            "precio": 1000000.0,
+            "estado": "Activo",
+            "vram": 8,
+            "chipset": "niidea",
+            "consumo_wats": 65.0
+        }
+    ],
+    "Pendrive": [
+        {
+            "id": 3,
+            "nombre": "Pendrive Kingston",
+            "marca": "Kingston",
+            "stock": 0,
+            "precio": 50000.0,
+            "estado": "Inactivo",
+            "capacidad": 64,
+            "tipo_usb": "USB-A / USB-C"
+        }
+    ]
+}
